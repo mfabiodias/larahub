@@ -47,6 +47,7 @@ git commit -m "first commit"
 
 git remote add origin $GITHUB_REPOURL
 git branch -M main
-git push -u origin main
+# git push -u origin main
+git push https://"$GITHUB_TOKEN"@github.com/"$GITHUB_USER"/"$GITHUB_REPONAME".git
 
 cp .env.example .env
