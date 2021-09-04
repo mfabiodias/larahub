@@ -29,12 +29,12 @@ Se desejar utilizar sua aplicação Dockerizada você pode querer conhecer mais 
 - Ref.: https://github.com/Laradock/laradock.git
 
 ## Utilização do Script de criação de aplicação APP e Github repositório 
-1. git clone https://github.com/mfabiodias/laravel_github_create.git
+1. git clone https://github.com/mfabiodias/larahub.git
 2. cp .env.example .env
 3. Criar Github Access Token in https://github.com/settings/tokens 
 4. Adicionar seu token de acesso no arquivo .env na variável GITHUB_TOKEN
 5. Criar aplicativos com o comando: 
-- /bin/bash  laravel_github_create/create_app.sh
+- /bin/bash  larahub/create_app.sh
 
 ### OBS: 
 - O sistema sera criado no diretório que ele for executado, tenha isso em mente!
