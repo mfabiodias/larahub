@@ -1,4 +1,4 @@
-# Laravel Github APP
+# Laravel Github Creator
 Script para criação de aplicativo Laravel com criação de repositório no GitHub.
 
 ## Requisitos
